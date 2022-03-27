@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>		
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Update="appicon.ico">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>
